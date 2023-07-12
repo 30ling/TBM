@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+  *::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera*/
+  }
+  
+  button {
+    outline: none;
+    border: none;
+  }
+  
+
+  
+  .todoList {
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border: none;
+  }
+  
+
+  
+  .todoList__title span {
+    font-size: 25px;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .inputContianer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    flex-wrap: nowrap;
+    margin: 10px 0px;
+  }
+  
+  #todoInput {
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 30px;
+    font-size: 16px;
+  }
+  
+  .input__icon {
+    font-size: 23px;
+    height: 100%;
+    line-height: 27px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    width: 10%;
+  }
+  .input__icon:hover {
+    background-color: lightskyblue;
+    transition: 300ms ease-in;
+  }
+  
+  .todoList__main {
+    height: 100%;
+    background-color: white;
+    overflow-y: scroll;
+  }
+  
+  .todoList__main__item {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    background-color: whitesmoke;
+    margin: 10px 0px;
+  }
+  
+  .trash {
+    padding: 20px;
+    cursor: pointer;
+  }
+  .trash:hover {
+    background-color: red;
+    color: white;
+    transition: 300ms ease-in;
+  }
+  
+  .todoList__foot {
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+  }
+  
+  .todoList__foot__task {
+    font-size: 13px;
+  }
+  
+  .todoList__foot__clearbtn {
+    width: 90px;
+    height: 30px;
+    background-color: blueviolet;
+    outline: none;
+    line-height: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .todoList__foot__clearbtn:hover {
+
+    transition: 300ms ease-in;
+  }/*# sourceMappingURL=style.css.map */
