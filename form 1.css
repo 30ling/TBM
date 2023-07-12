@@ -39,7 +39,7 @@ bodY{
     width: 100%;
     position: relative;
     background: linear-gradient(white, #E3DABD);
-    background-image:url(../image/TBM.jpg);
+    background-image:url(image/TBM.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: contain;
